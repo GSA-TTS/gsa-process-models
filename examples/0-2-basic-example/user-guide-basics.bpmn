@@ -191,7 +191,7 @@ Chuck Norris is proud of you.
     </bpmn:textAnnotation>
     <bpmn:association id="Association_0xyvy14" sourceRef="Activity_s__CNECT__" targetRef="TextAnnotation_002deu1" />
     <bpmn:textAnnotation id="TextAnnotation_0u3ff93">
-      <bpmn:text>Decision Tables are a great way to describe a set of business rules in a way that is easy to maintain and understand.</bpmn:text>
+      <bpmn:text>Decision Tables are a great way to describe a set of basdausiness rules in a way that is easy to maintain and understand.</bpmn:text>
     </bpmn:textAnnotation>
     <bpmn:association id="Association_1buqr4e" sourceRef="Activity_0sualuq" targetRef="TextAnnotation_0u3ff93" />
     <bpmn:textAnnotation id="TextAnnotation_1om7utz">
@@ -264,7 +264,7 @@ Chuck Norris is proud of you.
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="TextAnnotation_0u3ff93_di" bpmnElement="TextAnnotation_0u3ff93">
-        <dc:Bounds x="360" y="3" width="100" height="127" />
+        <dc:Bounds x="360" y="3" width="99.99999813005037" height="140.9313725490196" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="TextAnnotation_1om7utz_di" bpmnElement="TextAnnotation_1om7utz">
@@ -360,7 +360,7 @@ Chuck Norris is proud of you.
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Association_1buqr4e_di" bpmnElement="Association_1buqr4e">
         <di:waypoint x="410" y="177" />
-        <di:waypoint x="410" y="130" />
+        <di:waypoint x="410" y="144" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Association_0cwwslt_di" bpmnElement="Association_0cwwslt">
         <di:waypoint x="558" y="194" />
