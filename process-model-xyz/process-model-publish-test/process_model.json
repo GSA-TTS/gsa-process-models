@@ -1,0 +1,9 @@
+{
+    "description": "This is a test",
+    "display_name": "Process Model Publish Test",
+    "exception_notification_addresses": [],
+    "fault_or_suspend_on_exception": "fault",
+    "metadata_extraction_paths": null,
+    "primary_file_name": "process-model-publish-test.bpmn",
+    "primary_process_id": "Process_process_model_publish_test_aa4fms5"
+}
