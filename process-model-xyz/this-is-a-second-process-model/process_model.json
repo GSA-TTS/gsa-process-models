@@ -1,0 +1,9 @@
+{
+    "description": "This is a second process model",
+    "display_name": "This is a second process model",
+    "exception_notification_addresses": [],
+    "fault_or_suspend_on_exception": "fault",
+    "metadata_extraction_paths": null,
+    "primary_file_name": "this-is-a-second-process-model.bpmn",
+    "primary_process_id": "Process_this_is_a_second_process_model_lsf7yaf"
+}
