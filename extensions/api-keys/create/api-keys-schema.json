@@ -1,10 +1,18 @@
 {
   "type": "object",
+  "required": [
+    "create_confirmation"
+  ],
   "properties": {
     "name": {
         "type": "string",
-        "description": "Add a new api key",
-        "title": "New api key name"
+        "description": "Add a new API key. Use '-' or '_' instead of spaces.",
+        "title": "New API key name"
+    },
+    "create_confirmation": {
+      "type": "boolean",
+      "title": "Confirm that the API key does not have spaces in the name.",
+      "validationErrorMessage": "You must confirm that the API key does not contain spaces and instead uses '-' or '_'."
     }
   }
 }

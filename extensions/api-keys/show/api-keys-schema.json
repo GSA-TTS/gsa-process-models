@@ -9,7 +9,7 @@
     },
     "delete_confirmation": {
       "type": "boolean",
-      "title": "Are you sure you want to delete this api key?",
+      "title": "Are you sure you want to delete this API key?",
       "validationErrorMessage": "You must confirm deletion."
     }
   }
