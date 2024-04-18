@@ -15,6 +15,7 @@
       <bpmn:script>from spiffworkflow_backend.models.service_account import ServiceAccountModel
 from flask import current_app
 import urllib
+import json
 
 current_user = get_current_user()
 api_key_model_objects = ServiceAccountModel.query.filter_by(created_by_user_id=current_user['id']).all()
@@ -23,7 +24,7 @@ api_keys = []
 for akmo in api_key_model_objects:
     created_at = None
     encoded_name = urllib.parse.quote_plus(akmo.name)
-    encoded_name = str(encoded_name)
+    encoded_name = json.dumps(encoded_name)
     if akmo.created_at_in_seconds is not None:
         created_at = datetime.fromtimestamp(akmo.created_at_in_seconds).strftime('%Y-%m-%d')
     api_keys.append({
