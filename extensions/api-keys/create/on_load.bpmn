@@ -14,7 +14,7 @@
       <bpmn:outgoing>Flow_0qqvymg</bpmn:outgoing>
       <bpmn:script>from spiffworkflow_backend.models.service_account import ServiceAccountModel
 from flask import current_app
-import urllib.parse
+import urllib.request
 import json
 
 current_user = get_current_user()
