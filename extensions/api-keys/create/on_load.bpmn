@@ -28,7 +28,7 @@ for akmo in api_key_model_objects:
     api_keys.append({
         "name": akmo.name,
         "created_at": created_at,
-        "encoded_name": urllib.request.pathname2url(akmo.name)
+        "encoded_name": json.dumps(urllib.request.pathname2url(akmo.name))
     })
 
 del(datetime)
