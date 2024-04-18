@@ -29,8 +29,7 @@ for akmo in api_key_model_objects:
         created_at = datetime.fromtimestamp(akmo.created_at_in_seconds).strftime('%Y-%m-%d')
     api_keys.append({
         "name": akmo.name,
-        "created_at": created_at,
-        "encoded_name": encoded_name
+        "created_at": created_at
     })
 
 del(datetime)
