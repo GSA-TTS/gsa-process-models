@@ -23,6 +23,7 @@ api_keys = []
 for akmo in api_key_model_objects:
     created_at = None
     encoded_name = urllib.parse.quote_plus(akmo.name)
+    encoded_name = str(encoded_name)
     if akmo.created_at_in_seconds is not None:
         created_at = datetime.fromtimestamp(akmo.created_at_in_seconds).strftime('%Y-%m-%d')
     api_keys.append({
