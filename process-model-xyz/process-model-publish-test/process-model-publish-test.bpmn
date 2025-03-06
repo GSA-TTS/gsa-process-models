@@ -24,7 +24,12 @@ You can also change the text you are reading here by updating the *Instructions*
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_17db3yp</bpmn:incoming>
       <bpmn:outgoing>Flow_12pkbxb</bpmn:outgoing>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_0rucmxu">
+        <bpmn:targetRef>DataStoreReference_0h1kfl6</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
     </bpmn:manualTask>
+    <bpmn:dataObject id="DataObject_017pmpg" name="Data Object 017 Pmpg" />
+    <bpmn:dataStoreReference id="DataStoreReference_0h1kfl6" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_process_model_publish_test_aa4fms5">
@@ -38,6 +43,9 @@ You can also change the text you are reading here by updating the *Instructions*
         <dc:Bounds x="270" y="137" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_0h1kfl6_di" bpmnElement="DataStoreReference_0h1kfl6">
+        <dc:Bounds x="295" y="285" width="50" height="50" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_17db3yp_di" bpmnElement="Flow_17db3yp">
         <di:waypoint x="215" y="177" />
         <di:waypoint x="270" y="177" />
@@ -45,6 +53,10 @@ You can also change the text you are reading here by updating the *Instructions*
       <bpmndi:BPMNEdge id="Flow_12pkbxb_di" bpmnElement="Flow_12pkbxb">
         <di:waypoint x="370" y="177" />
         <di:waypoint x="432" y="177" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_0rucmxu_di" bpmnElement="DataOutputAssociation_0rucmxu">
+        <di:waypoint x="318" y="217" />
+        <di:waypoint x="316" y="285" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
